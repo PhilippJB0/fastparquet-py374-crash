@@ -1,0 +1,376 @@
+2019-07-19T06:46:41 Building wheels for collected packages: fastparquet, thrift
+2019-07-19T06:46:41   Created temporary directory: /tmp/pip-wheel-zci96bvz
+2019-07-19T06:46:41   Destination directory: /tmp/pip-wheel-zci96bvz
+2019-07-19T06:46:41   Running command /usr/local/bin/python -u -c 'import setuptools, tokenize;__file__='"'"'/tmp/pip-install-lxi9l77b/fastparquet/setup.py'"'"';f=getattr(tokenize, '"
+'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' bdist_wheel -d /tmp/pip-wheel-zci96bvz --pyt
+hon-tag cp37
+2019-07-19T06:46:41   Compiling fastparquet/speedups.pyx because it depends on /usr/local/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd.
+2019-07-19T06:46:41   [1/1] Cythonizing fastparquet/speedups.pyx
+2019-07-19T06:46:41   /usr/local/lib/python3.7/site-packages/Cython/Compiler/Main.py:369: FutureWarning: Cython directive 'language_level' not set, using 2 for now (Py2). This will ch
+ange in a later release! File: /tmp/pip-install-lxi9l77b/fastparquet/fastparquet/speedups.pyx
+2019-07-19T06:46:41     tree = Parsing.p_module(s, pxd, full_module_name)
+2019-07-19T06:46:42   running bdist_wheel
+2019-07-19T06:46:42   running build
+2019-07-19T06:46:42   running build_py
+2019-07-19T06:46:42   creating build
+2019-07-19T06:46:42   creating build/lib.linux-x86_64-3.7
+2019-07-19T06:46:42   creating build/lib.linux-x86_64-3.7/fastparquet
+2019-07-19T06:46:42   copying fastparquet/compression.py -> build/lib.linux-x86_64-3.7/fastparquet
+2019-07-19T06:46:42   copying fastparquet/api.py -> build/lib.linux-x86_64-3.7/fastparquet
+2019-07-19T06:46:42   copying fastparquet/util.py -> build/lib.linux-x86_64-3.7/fastparquet
+2019-07-19T06:46:42   copying fastparquet/__init__.py -> build/lib.linux-x86_64-3.7/fastparquet
+2019-07-19T06:46:42   copying fastparquet/thrift_structures.py -> build/lib.linux-x86_64-3.7/fastparquet
+2019-07-19T06:46:42   copying fastparquet/converted_types.py -> build/lib.linux-x86_64-3.7/fastparquet
+2019-07-19T06:46:42   copying fastparquet/core.py -> build/lib.linux-x86_64-3.7/fastparquet
+2019-07-19T06:46:42   copying fastparquet/encoding.py -> build/lib.linux-x86_64-3.7/fastparquet
+2019-07-19T06:46:42   copying fastparquet/writer.py -> build/lib.linux-x86_64-3.7/fastparquet
+2019-07-19T06:46:42   copying fastparquet/schema.py -> build/lib.linux-x86_64-3.7/fastparquet
+2019-07-19T06:46:42   copying fastparquet/dataframe.py -> build/lib.linux-x86_64-3.7/fastparquet
+2019-07-19T06:46:42   running egg_info
+2019-07-19T06:46:42   writing fastparquet.egg-info/PKG-INFO
+2019-07-19T06:46:42   writing dependency_links to fastparquet.egg-info/dependency_links.txt
+2019-07-19T06:46:42   writing requirements to fastparquet.egg-info/requires.txt
+2019-07-19T06:46:42   writing top-level names to fastparquet.egg-info/top_level.txt
+2019-07-19T06:46:42   reading manifest file 'fastparquet.egg-info/SOURCES.txt'
+2019-07-19T06:46:42   reading manifest template 'MANIFEST.in'
+2019-07-19T06:46:42   no previously-included directories found matching 'docs/_build'
+2019-07-19T06:46:42   writing manifest file 'fastparquet.egg-info/SOURCES.txt'
+2019-07-19T06:46:42   copying fastparquet/parquet.thrift -> build/lib.linux-x86_64-3.7/fastparquet
+2019-07-19T06:46:42   copying fastparquet/speedups.c -> build/lib.linux-x86_64-3.7/fastparquet
+2019-07-19T06:46:42   copying fastparquet/speedups.pyx -> build/lib.linux-x86_64-3.7/fastparquet
+2019-07-19T06:46:42   creating build/lib.linux-x86_64-3.7/fastparquet/benchmarks
+2019-07-19T06:46:42   copying fastparquet/benchmarks/columns.py -> build/lib.linux-x86_64-3.7/fastparquet/benchmarks
+2019-07-19T06:46:42   creating build/lib.linux-x86_64-3.7/fastparquet/parquet_thrift
+2019-07-19T06:46:42   copying fastparquet/parquet_thrift/__init__.py -> build/lib.linux-x86_64-3.7/fastparquet/parquet_thrift
+2019-07-19T06:46:42   creating build/lib.linux-x86_64-3.7/fastparquet/parquet_thrift/parquet
+2019-07-19T06:46:42   copying fastparquet/parquet_thrift/parquet/__init__.py -> build/lib.linux-x86_64-3.7/fastparquet/parquet_thrift/parquet
+2019-07-19T06:46:42   copying fastparquet/parquet_thrift/parquet/constants.py -> build/lib.linux-x86_64-3.7/fastparquet/parquet_thrift/parquet
+2019-07-19T06:46:42   copying fastparquet/parquet_thrift/parquet/ttypes.py -> build/lib.linux-x86_64-3.7/fastparquet/parquet_thrift/parquet
+2019-07-19T06:46:42   creating build/lib.linux-x86_64-3.7/fastparquet/test
+2019-07-19T06:46:42   copying fastparquet/test/__init__.py -> build/lib.linux-x86_64-3.7/fastparquet/test
+2019-07-19T06:46:42   copying fastparquet/test/test_api.py -> build/lib.linux-x86_64-3.7/fastparquet/test
+2019-07-19T06:46:42   copying fastparquet/test/test_aroundtrips.py -> build/lib.linux-x86_64-3.7/fastparquet/test
+2019-07-19T06:46:42   copying fastparquet/test/test_compression.py -> build/lib.linux-x86_64-3.7/fastparquet/test
+2019-07-19T06:46:42   copying fastparquet/test/test_converted_types.py -> build/lib.linux-x86_64-3.7/fastparquet/test
+2019-07-19T06:46:42   copying fastparquet/test/test_dataframe.py -> build/lib.linux-x86_64-3.7/fastparquet/test
+2019-07-19T06:46:42   copying fastparquet/test/test_encoding.py -> build/lib.linux-x86_64-3.7/fastparquet/test
+2019-07-19T06:46:42   copying fastparquet/test/test_output.py -> build/lib.linux-x86_64-3.7/fastparquet/test
+2019-07-19T06:46:42   copying fastparquet/test/test_partition_filters_specialstrings.py -> build/lib.linux-x86_64-3.7/fastparquet/test
+2019-07-19T06:46:42   copying fastparquet/test/test_read.py -> build/lib.linux-x86_64-3.7/fastparquet/test
+2019-07-19T06:46:42   copying fastparquet/test/test_schema.py -> build/lib.linux-x86_64-3.7/fastparquet/test
+2019-07-19T06:46:42   copying fastparquet/test/test_speedups.py -> build/lib.linux-x86_64-3.7/fastparquet/test
+2019-07-19T06:46:42   copying fastparquet/test/test_thrift_structures.py -> build/lib.linux-x86_64-3.7/fastparquet/test
+2019-07-19T06:46:42   copying fastparquet/test/test_util.py -> build/lib.linux-x86_64-3.7/fastparquet/test
+2019-07-19T06:46:42   copying fastparquet/test/test_with_n.py -> build/lib.linux-x86_64-3.7/fastparquet/test
+2019-07-19T06:46:42   copying fastparquet/test/util.py -> build/lib.linux-x86_64-3.7/fastparquet/test
+2019-07-19T06:46:42   running build_ext
+2019-07-19T06:46:42   building 'fastparquet.speedups' extension
+2019-07-19T06:46:42   creating build/temp.linux-x86_64-3.7
+2019-07-19T06:46:42   creating build/temp.linux-x86_64-3.7/fastparquet
+2019-07-19T06:46:42   gcc -pthread -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -I/usr/local/include/python3.7m -I/tmp/pip-install-lxi9l77b/fastparquet/.eggs/numpy-1.17.0rc2-py3.7-linux-x86_64.egg/numpy/core/include -c fastparquet/speedups.c -o build/temp.linux-x86_64-3.7/fastparquet/speedups.o
+2019-07-19T06:46:42   In file included from /tmp/pip-install-lxi9l77b/fastparquet/.eggs/numpy-1.17.0rc2-py3.7-linux-x86_64.egg/numpy/core/include/numpy/ndarraytypes.h:1830,
+2019-07-19T06:46:42                    from /tmp/pip-install-lxi9l77b/fastparquet/.eggs/numpy-1.17.0rc2-py3.7-linux-x86_64.egg/numpy/core/include/numpy/ndarrayobject.h:12,
+2019-07-19T06:46:42                    from /tmp/pip-install-lxi9l77b/fastparquet/.eggs/numpy-1.17.0rc2-py3.7-linux-x86_64.egg/numpy/core/include/numpy/arrayobject.h:4,
+2019-07-19T06:46:42                    from fastparquet/speedups.c:613:
+2019-07-19T06:46:42   /tmp/pip-install-lxi9l77b/fastparquet/.eggs/numpy-1.17.0rc2-py3.7-linux-x86_64.egg/numpy/core/include/numpy/npy_1_7_deprecated_api.h:17:2: warning: #warning "Using deprecated NumPy API, disable it with " "#define NPY_NO_DEPRECATED_API NPY_1_7_API_VERSION" [-Wcpp]
+2019-07-19T06:46:42    #warning "Using deprecated NumPy API, disable it with " \
+2019-07-19T06:46:42     ^~~~~~~
+2019-07-19T06:46:43   gcc -pthread -shared build/temp.linux-x86_64-3.7/fastparquet/speedups.o -L/usr/local/lib -lpython3.7m -o build/lib.linux-x86_64-3.7/fastparquet/speedups.cpython-37m-x86_64-linux-gnu.so
+2019-07-19T06:46:43   installing to build/bdist.linux-x86_64/wheel
+2019-07-19T06:46:43   running install
+2019-07-19T06:46:43   running install_lib
+2019-07-19T06:46:43   creating build/bdist.linux-x86_64
+2019-07-19T06:46:43   creating build/bdist.linux-x86_64/wheel
+2019-07-19T06:46:43   creating build/bdist.linux-x86_64/wheel/fastparquet
+2019-07-19T06:46:43   copying build/lib.linux-x86_64-3.7/fastparquet/parquet.thrift -> build/bdist.linux-x86_64/wheel/fastparquet
+2019-07-19T06:46:43   copying build/lib.linux-x86_64-3.7/fastparquet/compression.py -> build/bdist.linux-x86_64/wheel/fastparquet
+2019-07-19T06:46:43   copying build/lib.linux-x86_64-3.7/fastparquet/api.py -> build/bdist.linux-x86_64/wheel/fastparquet
+2019-07-19T06:46:43   copying build/lib.linux-x86_64-3.7/fastparquet/speedups.c -> build/bdist.linux-x86_64/wheel/fastparquet
+2019-07-19T06:46:43   copying build/lib.linux-x86_64-3.7/fastparquet/util.py -> build/bdist.linux-x86_64/wheel/fastparquet
+2019-07-19T06:46:43   copying build/lib.linux-x86_64-3.7/fastparquet/speedups.pyx -> build/bdist.linux-x86_64/wheel/fastparquet
+2019-07-19T06:46:43   copying build/lib.linux-x86_64-3.7/fastparquet/__init__.py -> build/bdist.linux-x86_64/wheel/fastparquet
+2019-07-19T06:46:43   creating build/bdist.linux-x86_64/wheel/fastparquet/parquet_thrift
+2019-07-19T06:46:43   copying build/lib.linux-x86_64-3.7/fastparquet/parquet_thrift/__init__.py -> build/bdist.linux-x86_64/wheel/fastparquet/parquet_thrift
+2019-07-19T06:46:43   creating build/bdist.linux-x86_64/wheel/fastparquet/parquet_thrift/parquet
+2019-07-19T06:46:43   copying build/lib.linux-x86_64-3.7/fastparquet/parquet_thrift/parquet/__init__.py -> build/bdist.linux-x86_64/wheel/fastparquet/parquet_thrift/parquet
+2019-07-19T06:46:43   copying build/lib.linux-x86_64-3.7/fastparquet/parquet_thrift/parquet/constants.py -> build/bdist.linux-x86_64/wheel/fastparquet/parquet_thrift/parquet
+2019-07-19T06:46:43   copying build/lib.linux-x86_64-3.7/fastparquet/parquet_thrift/parquet/ttypes.py -> build/bdist.linux-x86_64/wheel/fastparquet/parquet_thrift/parquet
+2019-07-19T06:46:43   copying build/lib.linux-x86_64-3.7/fastparquet/speedups.cpython-37m-x86_64-linux-gnu.so -> build/bdist.linux-x86_64/wheel/fastparquet
+2019-07-19T06:46:43   copying build/lib.linux-x86_64-3.7/fastparquet/thrift_structures.py -> build/bdist.linux-x86_64/wheel/fastparquet
+2019-07-19T06:46:43   copying build/lib.linux-x86_64-3.7/fastparquet/converted_types.py -> build/bdist.linux-x86_64/wheel/fastparquet
+2019-07-19T06:46:43   creating build/bdist.linux-x86_64/wheel/fastparquet/test
+2019-07-19T06:46:43   copying build/lib.linux-x86_64-3.7/fastparquet/test/test_dataframe.py -> build/bdist.linux-x86_64/wheel/fastparquet/test
+2019-07-19T06:46:43   copying build/lib.linux-x86_64-3.7/fastparquet/test/test_schema.py -> build/bdist.linux-x86_64/wheel/fastparquet/test
+2019-07-19T06:46:43   copying build/lib.linux-x86_64-3.7/fastparquet/test/test_util.py -> build/bdist.linux-x86_64/wheel/fastparquet/test
+2019-07-19T06:46:43   copying build/lib.linux-x86_64-3.7/fastparquet/test/test_converted_types.py -> build/bdist.linux-x86_64/wheel/fastparquet/test
+2019-07-19T06:46:43   copying build/lib.linux-x86_64-3.7/fastparquet/test/test_encoding.py -> build/bdist.linux-x86_64/wheel/fastparquet/test
+2019-07-19T06:46:43   copying build/lib.linux-x86_64-3.7/fastparquet/test/util.py -> build/bdist.linux-x86_64/wheel/fastparquet/test
+2019-07-19T06:46:43   copying build/lib.linux-x86_64-3.7/fastparquet/test/test_api.py -> build/bdist.linux-x86_64/wheel/fastparquet/test
+2019-07-19T06:46:43   copying build/lib.linux-x86_64-3.7/fastparquet/test/test_compression.py -> build/bdist.linux-x86_64/wheel/fastparquet/test
+2019-07-19T06:46:43   copying build/lib.linux-x86_64-3.7/fastparquet/test/__init__.py -> build/bdist.linux-x86_64/wheel/fastparquet/test
+2019-07-19T06:46:43   copying build/lib.linux-x86_64-3.7/fastparquet/test/test_read.py -> build/bdist.linux-x86_64/wheel/fastparquet/test
+2019-07-19T06:46:43   copying build/lib.linux-x86_64-3.7/fastparquet/test/test_output.py -> build/bdist.linux-x86_64/wheel/fastparquet/test
+2019-07-19T06:46:43   copying build/lib.linux-x86_64-3.7/fastparquet/test/test_speedups.py -> build/bdist.linux-x86_64/wheel/fastparquet/test
+2019-07-19T06:46:43   copying build/lib.linux-x86_64-3.7/fastparquet/test/test_partition_filters_specialstrings.py -> build/bdist.linux-x86_64/wheel/fastparquet/test
+2019-07-19T06:46:43   copying build/lib.linux-x86_64-3.7/fastparquet/test/test_thrift_structures.py -> build/bdist.linux-x86_64/wheel/fastparquet/test
+2019-07-19T06:46:43   copying build/lib.linux-x86_64-3.7/fastparquet/test/test_with_n.py -> build/bdist.linux-x86_64/wheel/fastparquet/test
+2019-07-19T06:46:43   copying build/lib.linux-x86_64-3.7/fastparquet/test/test_aroundtrips.py -> build/bdist.linux-x86_64/wheel/fastparquet/test
+2019-07-19T06:46:43   copying build/lib.linux-x86_64-3.7/fastparquet/core.py -> build/bdist.linux-x86_64/wheel/fastparquet
+2019-07-19T06:46:43   copying build/lib.linux-x86_64-3.7/fastparquet/encoding.py -> build/bdist.linux-x86_64/wheel/fastparquet
+2019-07-19T06:46:43   copying build/lib.linux-x86_64-3.7/fastparquet/writer.py -> build/bdist.linux-x86_64/wheel/fastparquet
+2019-07-19T06:46:43   copying build/lib.linux-x86_64-3.7/fastparquet/schema.py -> build/bdist.linux-x86_64/wheel/fastparquet
+2019-07-19T06:46:43   copying build/lib.linux-x86_64-3.7/fastparquet/dataframe.py -> build/bdist.linux-x86_64/wheel/fastparquet
+2019-07-19T06:46:43   creating build/bdist.linux-x86_64/wheel/fastparquet/benchmarks
+2019-07-19T06:46:43   copying build/lib.linux-x86_64-3.7/fastparquet/benchmarks/columns.py -> build/bdist.linux-x86_64/wheel/fastparquet/benchmarks
+2019-07-19T06:46:43   running install_egg_info
+2019-07-19T06:46:43   Copying fastparquet.egg-info to build/bdist.linux-x86_64/wheel/fastparquet-0.3.1-py3.7.egg-info
+2019-07-19T06:46:43   running install_scripts
+2019-07-19T06:46:43   adding license file "LICENSE" (matched pattern "LICEN[CS]E*")
+2019-07-19T06:46:43   creating build/bdist.linux-x86_64/wheel/fastparquet-0.3.1.dist-info/WHEEL
+2019-07-19T06:46:43   creating '/tmp/pip-wheel-zci96bvz/fastparquet-0.3.1-cp37-cp37m-linux_x86_64.whl' and adding 'build/bdist.linux-x86_64/wheel' to it
+2019-07-19T06:46:43   adding 'fastparquet/__init__.py'
+2019-07-19T06:46:43   adding 'fastparquet/api.py'
+2019-07-19T06:46:43   adding 'fastparquet/compression.py'
+2019-07-19T06:46:43   adding 'fastparquet/converted_types.py'
+2019-07-19T06:46:43   adding 'fastparquet/core.py'
+2019-07-19T06:46:43   adding 'fastparquet/dataframe.py'
+2019-07-19T06:46:43   adding 'fastparquet/encoding.py'
+2019-07-19T06:46:43   adding 'fastparquet/parquet.thrift'
+2019-07-19T06:46:43   adding 'fastparquet/schema.py'
+2019-07-19T06:46:43   adding 'fastparquet/speedups.c'
+2019-07-19T06:46:43   adding 'fastparquet/speedups.cpython-37m-x86_64-linux-gnu.so'
+2019-07-19T06:46:43   adding 'fastparquet/speedups.pyx'
+2019-07-19T06:46:43   adding 'fastparquet/thrift_structures.py'
+2019-07-19T06:46:43   adding 'fastparquet/util.py'
+2019-07-19T06:46:43   adding 'fastparquet/writer.py'
+2019-07-19T06:46:43   adding 'fastparquet/benchmarks/columns.py'
+2019-07-19T06:46:43   adding 'fastparquet/parquet_thrift/__init__.py'
+2019-07-19T06:46:43   adding 'fastparquet/parquet_thrift/parquet/__init__.py'
+2019-07-19T06:46:43   adding 'fastparquet/parquet_thrift/parquet/constants.py'
+2019-07-19T06:46:43   adding 'fastparquet/parquet_thrift/parquet/ttypes.py'
+2019-07-19T06:46:43   adding 'fastparquet/test/__init__.py'
+2019-07-19T06:46:43   adding 'fastparquet/test/test_api.py'
+2019-07-19T06:46:43   adding 'fastparquet/test/test_aroundtrips.py'
+2019-07-19T06:46:43   adding 'fastparquet/test/test_compression.py'
+2019-07-19T06:46:43   adding 'fastparquet/test/test_converted_types.py'
+2019-07-19T06:46:43   adding 'fastparquet/test/test_dataframe.py'
+2019-07-19T06:46:43   adding 'fastparquet/test/test_encoding.py'
+2019-07-19T06:46:43   adding 'fastparquet/test/test_output.py'
+2019-07-19T06:46:43   adding 'fastparquet/test/test_partition_filters_specialstrings.py'
+2019-07-19T06:46:43   adding 'fastparquet/test/test_read.py'
+2019-07-19T06:46:43   adding 'fastparquet/test/test_schema.py'
+2019-07-19T06:46:43   adding 'fastparquet/test/test_speedups.py'
+2019-07-19T06:46:43   adding 'fastparquet/test/test_thrift_structures.py'
+2019-07-19T06:46:43   adding 'fastparquet/test/test_util.py'
+2019-07-19T06:46:43   adding 'fastparquet/test/test_with_n.py'
+2019-07-19T06:46:43   adding 'fastparquet/test/util.py'
+2019-07-19T06:46:43   adding 'fastparquet-0.3.1.dist-info/LICENSE'
+2019-07-19T06:46:43   adding 'fastparquet-0.3.1.dist-info/METADATA'
+2019-07-19T06:46:43   adding 'fastparquet-0.3.1.dist-info/WHEEL'
+2019-07-19T06:46:43   adding 'fastparquet-0.3.1.dist-info/pbr.json'
+2019-07-19T06:46:43   adding 'fastparquet-0.3.1.dist-info/top_level.txt'
+2019-07-19T06:46:43   adding 'fastparquet-0.3.1.dist-info/RECORD'
+2019-07-19T06:46:43   removing build/bdist.linux-x86_64/wheel
+2019-07-19T06:46:43   Stored in directory: /root/.cache/pip/wheels/f3/27/fb/839c776ec8689ff9ee52ad3e91d7d4d848ac6d7545a127d5b0
+2019-07-19T06:46:43   Removing source in /tmp/pip-install-lxi9l77b/fastparquet
+2019-07-19T06:46:43   Created temporary directory: /tmp/pip-wheel-vnpmhsbm
+2019-07-19T06:46:43   Destination directory: /tmp/pip-wheel-vnpmhsbm
+2019-07-19T06:46:43   Running command /usr/local/bin/python -u -c 'import setuptools, tokenize;__file__='"'"'/tmp/pip-install-lxi9l77b/thrift/setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' bdist_wheel -d /tmp/pip-wheel-vnpmhsbm --python-tag cp37
+2019-07-19T06:46:43   running bdist_wheel
+2019-07-19T06:46:43   running build
+2019-07-19T06:46:43   running build_py
+2019-07-19T06:46:43   creating build
+2019-07-19T06:46:43   creating build/lib.linux-x86_64-3.7
+2019-07-19T06:46:43   creating build/lib.linux-x86_64-3.7/thrift
+2019-07-19T06:46:43   copying src/TRecursive.py -> build/lib.linux-x86_64-3.7/thrift
+2019-07-19T06:46:43   copying src/__init__.py -> build/lib.linux-x86_64-3.7/thrift
+2019-07-19T06:46:43   copying src/TSerialization.py -> build/lib.linux-x86_64-3.7/thrift
+2019-07-19T06:46:43   copying src/Thrift.py -> build/lib.linux-x86_64-3.7/thrift
+2019-07-19T06:46:43   copying src/compat.py -> build/lib.linux-x86_64-3.7/thrift
+2019-07-19T06:46:43   copying src/TTornado.py -> build/lib.linux-x86_64-3.7/thrift
+2019-07-19T06:46:43   copying src/TMultiplexedProcessor.py -> build/lib.linux-x86_64-3.7/thrift
+2019-07-19T06:46:43   copying src/TSCons.py -> build/lib.linux-x86_64-3.7/thrift
+2019-07-19T06:46:43   creating build/lib.linux-x86_64-3.7/thrift/protocol
+2019-07-19T06:46:43   copying src/protocol/TMultiplexedProtocol.py -> build/lib.linux-x86_64-3.7/thrift/protocol
+2019-07-19T06:46:43   copying src/protocol/TJSONProtocol.py -> build/lib.linux-x86_64-3.7/thrift/protocol
+2019-07-19T06:46:43   copying src/protocol/__init__.py -> build/lib.linux-x86_64-3.7/thrift/protocol
+2019-07-19T06:46:43   copying src/protocol/TBase.py -> build/lib.linux-x86_64-3.7/thrift/protocol
+2019-07-19T06:46:43   copying src/protocol/TBinaryProtocol.py -> build/lib.linux-x86_64-3.7/thrift/protocol
+2019-07-19T06:46:43   copying src/protocol/TProtocol.py -> build/lib.linux-x86_64-3.7/thrift/protocol
+2019-07-19T06:46:43   copying src/protocol/TProtocolDecorator.py -> build/lib.linux-x86_64-3.7/thrift/protocol
+2019-07-19T06:46:43   copying src/protocol/TCompactProtocol.py -> build/lib.linux-x86_64-3.7/thrift/protocol
+2019-07-19T06:46:43   creating build/lib.linux-x86_64-3.7/thrift/transport
+2019-07-19T06:46:43   copying src/transport/THttpClient.py -> build/lib.linux-x86_64-3.7/thrift/transport
+2019-07-19T06:46:43   copying src/transport/TSSLSocket.py -> build/lib.linux-x86_64-3.7/thrift/transport
+2019-07-19T06:46:43   copying src/transport/TSocket.py -> build/lib.linux-x86_64-3.7/thrift/transport
+2019-07-19T06:46:43   copying src/transport/__init__.py -> build/lib.linux-x86_64-3.7/thrift/transport
+2019-07-19T06:46:43   copying src/transport/TTransport.py -> build/lib.linux-x86_64-3.7/thrift/transport
+2019-07-19T06:46:43   copying src/transport/TTwisted.py -> build/lib.linux-x86_64-3.7/thrift/transport
+2019-07-19T06:46:43   copying src/transport/TZlibTransport.py -> build/lib.linux-x86_64-3.7/thrift/transport
+2019-07-19T06:46:43   copying src/transport/sslcompat.py -> build/lib.linux-x86_64-3.7/thrift/transport
+2019-07-19T06:46:43   creating build/lib.linux-x86_64-3.7/thrift/server
+2019-07-19T06:46:43   copying src/server/TNonblockingServer.py -> build/lib.linux-x86_64-3.7/thrift/server
+2019-07-19T06:46:43   copying src/server/TProcessPoolServer.py -> build/lib.linux-x86_64-3.7/thrift/server
+2019-07-19T06:46:43   copying src/server/__init__.py -> build/lib.linux-x86_64-3.7/thrift/server
+2019-07-19T06:46:43   copying src/server/TServer.py -> build/lib.linux-x86_64-3.7/thrift/server
+2019-07-19T06:46:43   copying src/server/THttpServer.py -> build/lib.linux-x86_64-3.7/thrift/server
+2019-07-19T06:46:43   running build_ext
+2019-07-19T06:46:43   building 'thrift.protocol.fastbinary' extension
+2019-07-19T06:46:43   creating build/temp.linux-x86_64-3.7
+2019-07-19T06:46:43   creating build/temp.linux-x86_64-3.7/src
+2019-07-19T06:46:43   creating build/temp.linux-x86_64-3.7/src/ext
+2019-07-19T06:46:43   gcc -pthread -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -Isrc -I/usr/local/include/python3.7m -c src/ext/module.cpp -o build/temp.linux-x86_64-3.7/src/ext/module.o
+2019-07-19T06:46:46   gcc -pthread -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -Isrc -I/usr/local/include/python3.7m -c src/ext/types.cpp -o build/temp.linux-x86_64-3.7/src/ext/types.o
+2019-07-19T06:46:46   gcc -pthread -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -Isrc -I/usr/local/include/python3.7m -c src/ext/binary.cpp -o build/temp.linux-x86_64-3.7/src/ext/binary.o
+2019-07-19T06:46:46   gcc -pthread -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -Isrc -I/usr/local/include/python3.7m -c src/ext/compact.cpp -o build/temp.linux-x86_64-3.7/src/ext/compact.o
+2019-07-19T06:46:47   g++ -pthread -shared build/temp.linux-x86_64-3.7/src/ext/module.o build/temp.linux-x86_64-3.7/src/ext/types.o build/temp.linux-x86_64-3.7/src/ext/binary.o build/temp.linux-x86_64-3.7/src/ext/compact.o -L/usr/local/lib -lpython3.7m -o build/lib.linux-x86_64-3.7/thrift/protocol/fastbinary.cpython-37m-x86_64-linux-gnu.so
+2019-07-19T06:46:47   installing to build/bdist.linux-x86_64/wheel
+2019-07-19T06:46:47   running install
+2019-07-19T06:46:47   running install_lib
+2019-07-19T06:46:47   creating build/bdist.linux-x86_64
+2019-07-19T06:46:47   creating build/bdist.linux-x86_64/wheel
+2019-07-19T06:46:47   creating build/bdist.linux-x86_64/wheel/thrift
+2019-07-19T06:46:47   copying build/lib.linux-x86_64-3.7/thrift/TRecursive.py -> build/bdist.linux-x86_64/wheel/thrift
+2019-07-19T06:46:47   creating build/bdist.linux-x86_64/wheel/thrift/server
+2019-07-19T06:46:47   copying build/lib.linux-x86_64-3.7/thrift/server/TNonblockingServer.py -> build/bdist.linux-x86_64/wheel/thrift/server
+2019-07-19T06:46:47   copying build/lib.linux-x86_64-3.7/thrift/server/TProcessPoolServer.py -> build/bdist.linux-x86_64/wheel/thrift/server
+2019-07-19T06:46:47   copying build/lib.linux-x86_64-3.7/thrift/server/__init__.py -> build/bdist.linux-x86_64/wheel/thrift/server
+2019-07-19T06:46:47   copying build/lib.linux-x86_64-3.7/thrift/server/TServer.py -> build/bdist.linux-x86_64/wheel/thrift/server
+2019-07-19T06:46:47   copying build/lib.linux-x86_64-3.7/thrift/server/THttpServer.py -> build/bdist.linux-x86_64/wheel/thrift/server
+2019-07-19T06:46:47   copying build/lib.linux-x86_64-3.7/thrift/__init__.py -> build/bdist.linux-x86_64/wheel/thrift
+2019-07-19T06:46:47   copying build/lib.linux-x86_64-3.7/thrift/TSerialization.py -> build/bdist.linux-x86_64/wheel/thrift
+2019-07-19T06:46:47   copying build/lib.linux-x86_64-3.7/thrift/Thrift.py -> build/bdist.linux-x86_64/wheel/thrift
+2019-07-19T06:46:47   creating build/bdist.linux-x86_64/wheel/thrift/protocol
+2019-07-19T06:46:47   copying build/lib.linux-x86_64-3.7/thrift/protocol/fastbinary.cpython-37m-x86_64-linux-gnu.so -> build/bdist.linux-x86_64/wheel/thrift/protocol
+2019-07-19T06:46:47   copying build/lib.linux-x86_64-3.7/thrift/protocol/TMultiplexedProtocol.py -> build/bdist.linux-x86_64/wheel/thrift/protocol
+2019-07-19T06:46:47   copying build/lib.linux-x86_64-3.7/thrift/protocol/TJSONProtocol.py -> build/bdist.linux-x86_64/wheel/thrift/protocol
+2019-07-19T06:46:47   copying build/lib.linux-x86_64-3.7/thrift/protocol/__init__.py -> build/bdist.linux-x86_64/wheel/thrift/protocol
+2019-07-19T06:46:47   copying build/lib.linux-x86_64-3.7/thrift/protocol/TBase.py -> build/bdist.linux-x86_64/wheel/thrift/protocol
+2019-07-19T06:46:47   copying build/lib.linux-x86_64-3.7/thrift/protocol/TBinaryProtocol.py -> build/bdist.linux-x86_64/wheel/thrift/protocol
+2019-07-19T06:46:47   copying build/lib.linux-x86_64-3.7/thrift/protocol/TProtocol.py -> build/bdist.linux-x86_64/wheel/thrift/protocol
+2019-07-19T06:46:47   copying build/lib.linux-x86_64-3.7/thrift/protocol/TProtocolDecorator.py -> build/bdist.linux-x86_64/wheel/thrift/protocol
+2019-07-19T06:46:47   copying build/lib.linux-x86_64-3.7/thrift/protocol/TCompactProtocol.py -> build/bdist.linux-x86_64/wheel/thrift/protocol
+2019-07-19T06:46:47   copying build/lib.linux-x86_64-3.7/thrift/compat.py -> build/bdist.linux-x86_64/wheel/thrift
+2019-07-19T06:46:47   creating build/bdist.linux-x86_64/wheel/thrift/transport
+2019-07-19T06:46:47   copying build/lib.linux-x86_64-3.7/thrift/transport/THttpClient.py -> build/bdist.linux-x86_64/wheel/thrift/transport
+2019-07-19T06:46:47   copying build/lib.linux-x86_64-3.7/thrift/transport/TSSLSocket.py -> build/bdist.linux-x86_64/wheel/thrift/transport
+2019-07-19T06:46:47   copying build/lib.linux-x86_64-3.7/thrift/transport/TSocket.py -> build/bdist.linux-x86_64/wheel/thrift/transport
+2019-07-19T06:46:47   copying build/lib.linux-x86_64-3.7/thrift/transport/__init__.py -> build/bdist.linux-x86_64/wheel/thrift/transport
+2019-07-19T06:46:47   copying build/lib.linux-x86_64-3.7/thrift/transport/TTransport.py -> build/bdist.linux-x86_64/wheel/thrift/transport
+2019-07-19T06:46:47   copying build/lib.linux-x86_64-3.7/thrift/transport/TTwisted.py -> build/bdist.linux-x86_64/wheel/thrift/transport
+2019-07-19T06:46:47   copying build/lib.linux-x86_64-3.7/thrift/transport/TZlibTransport.py -> build/bdist.linux-x86_64/wheel/thrift/transport
+2019-07-19T06:46:47   copying build/lib.linux-x86_64-3.7/thrift/transport/sslcompat.py -> build/bdist.linux-x86_64/wheel/thrift/transport
+2019-07-19T06:46:47   copying build/lib.linux-x86_64-3.7/thrift/TTornado.py -> build/bdist.linux-x86_64/wheel/thrift
+2019-07-19T06:46:47   copying build/lib.linux-x86_64-3.7/thrift/TMultiplexedProcessor.py -> build/bdist.linux-x86_64/wheel/thrift
+2019-07-19T06:46:47   copying build/lib.linux-x86_64-3.7/thrift/TSCons.py -> build/bdist.linux-x86_64/wheel/thrift
+2019-07-19T06:46:47   writing byte-compilation script '/tmp/tmpgqauzjhy.py'
+2019-07-19T06:46:47   /usr/local/bin/python /tmp/tmpgqauzjhy.py
+2019-07-19T06:46:47   removing /tmp/tmpgqauzjhy.py
+2019-07-19T06:46:47   running install_egg_info
+2019-07-19T06:46:47   running egg_info
+2019-07-19T06:46:47   writing thrift.egg-info/PKG-INFO
+2019-07-19T06:46:47   writing dependency_links to thrift.egg-info/dependency_links.txt
+2019-07-19T06:46:47   writing requirements to thrift.egg-info/requires.txt
+2019-07-19T06:46:47   writing top-level names to thrift.egg-info/top_level.txt
+2019-07-19T06:46:47   reading manifest file 'thrift.egg-info/SOURCES.txt'
+2019-07-19T06:46:47   reading manifest template 'MANIFEST.in'
+2019-07-19T06:46:47   writing manifest file 'thrift.egg-info/SOURCES.txt'
+2019-07-19T06:46:47   Copying thrift.egg-info to build/bdist.linux-x86_64/wheel/thrift-0.11.0-py3.7.egg-info
+2019-07-19T06:46:47   running install_scripts
+2019-07-19T06:46:47   creating build/bdist.linux-x86_64/wheel/thrift-0.11.0.dist-info/WHEEL
+2019-07-19T06:46:47   creating '/tmp/pip-wheel-vnpmhsbm/thrift-0.11.0-cp37-cp37m-linux_x86_64.whl' and adding 'build/bdist.linux-x86_64/wheel' to it
+2019-07-19T06:46:47   adding 'thrift/TMultiplexedProcessor.py'
+2019-07-19T06:46:47   adding 'thrift/TRecursive.py'
+2019-07-19T06:46:47   adding 'thrift/TSCons.py'
+2019-07-19T06:46:47   adding 'thrift/TSerialization.py'
+2019-07-19T06:46:47   adding 'thrift/TTornado.py'
+2019-07-19T06:46:47   adding 'thrift/Thrift.py'
+2019-07-19T06:46:47   adding 'thrift/__init__.py'
+2019-07-19T06:46:47   adding 'thrift/compat.py'
+2019-07-19T06:46:47   adding 'thrift/__pycache__/TMultiplexedProcessor.cpython-37.opt-1.pyc'
+2019-07-19T06:46:47   adding 'thrift/__pycache__/TRecursive.cpython-37.opt-1.pyc'
+2019-07-19T06:46:47   adding 'thrift/__pycache__/TSCons.cpython-37.opt-1.pyc'
+2019-07-19T06:46:47   adding 'thrift/__pycache__/TSerialization.cpython-37.opt-1.pyc'
+2019-07-19T06:46:47   adding 'thrift/__pycache__/TTornado.cpython-37.opt-1.pyc'
+2019-07-19T06:46:47   adding 'thrift/__pycache__/Thrift.cpython-37.opt-1.pyc'
+2019-07-19T06:46:47   adding 'thrift/__pycache__/__init__.cpython-37.opt-1.pyc'
+2019-07-19T06:46:47   adding 'thrift/__pycache__/compat.cpython-37.opt-1.pyc'
+2019-07-19T06:46:47   adding 'thrift/protocol/TBase.py'
+2019-07-19T06:46:47   adding 'thrift/protocol/TBinaryProtocol.py'
+2019-07-19T06:46:47   adding 'thrift/protocol/TCompactProtocol.py'
+2019-07-19T06:46:47   adding 'thrift/protocol/TJSONProtocol.py'
+2019-07-19T06:46:47   adding 'thrift/protocol/TMultiplexedProtocol.py'
+2019-07-19T06:46:47   adding 'thrift/protocol/TProtocol.py'
+2019-07-19T06:46:47   adding 'thrift/protocol/TProtocolDecorator.py'
+2019-07-19T06:46:47   adding 'thrift/protocol/__init__.py'
+2019-07-19T06:46:47   adding 'thrift/protocol/fastbinary.cpython-37m-x86_64-linux-gnu.so'
+2019-07-19T06:46:47   adding 'thrift/protocol/__pycache__/TBase.cpython-37.opt-1.pyc'
+2019-07-19T06:46:47   adding 'thrift/protocol/__pycache__/TBinaryProtocol.cpython-37.opt-1.pyc'
+2019-07-19T06:46:47   adding 'thrift/protocol/__pycache__/TCompactProtocol.cpython-37.opt-1.pyc'
+2019-07-19T06:46:47   adding 'thrift/protocol/__pycache__/TJSONProtocol.cpython-37.opt-1.pyc'
+2019-07-19T06:46:47   adding 'thrift/protocol/__pycache__/TMultiplexedProtocol.cpython-37.opt-1.pyc'
+2019-07-19T06:46:47   adding 'thrift/protocol/__pycache__/TProtocol.cpython-37.opt-1.pyc'
+2019-07-19T06:46:47   adding 'thrift/protocol/__pycache__/TProtocolDecorator.cpython-37.opt-1.pyc'
+2019-07-19T06:46:47   adding 'thrift/protocol/__pycache__/__init__.cpython-37.opt-1.pyc'
+2019-07-19T06:46:47   adding 'thrift/server/THttpServer.py'
+2019-07-19T06:46:47   adding 'thrift/server/TNonblockingServer.py'
+2019-07-19T06:46:47   adding 'thrift/server/TProcessPoolServer.py'
+2019-07-19T06:46:47   adding 'thrift/server/TServer.py'
+2019-07-19T06:46:47   adding 'thrift/server/__init__.py'
+2019-07-19T06:46:47   adding 'thrift/server/__pycache__/THttpServer.cpython-37.opt-1.pyc'
+2019-07-19T06:46:47   adding 'thrift/server/__pycache__/TNonblockingServer.cpython-37.opt-1.pyc'
+2019-07-19T06:46:47   adding 'thrift/server/__pycache__/TProcessPoolServer.cpython-37.opt-1.pyc'
+2019-07-19T06:46:47   adding 'thrift/server/__pycache__/TServer.cpython-37.opt-1.pyc'
+2019-07-19T06:46:47   adding 'thrift/server/__pycache__/__init__.cpython-37.opt-1.pyc'
+2019-07-19T06:46:47   adding 'thrift/transport/THttpClient.py'
+2019-07-19T06:46:47   adding 'thrift/transport/TSSLSocket.py'
+2019-07-19T06:46:47   adding 'thrift/transport/TSocket.py'
+2019-07-19T06:46:47   adding 'thrift/transport/TTransport.py'
+2019-07-19T06:46:47   adding 'thrift/transport/TTwisted.py'
+2019-07-19T06:46:47   adding 'thrift/protocol/__pycache__/TProtocolDecorator.cpython-37.opt-1.pyc'
+2019-07-19T06:46:47   adding 'thrift/protocol/__pycache__/__init__.cpython-37.opt-1.pyc'
+2019-07-19T06:46:47   adding 'thrift/server/THttpServer.py'
+2019-07-19T06:46:47   adding 'thrift/server/TNonblockingServer.py'
+2019-07-19T06:46:47   adding 'thrift/server/TProcessPoolServer.py'
+2019-07-19T06:46:47   adding 'thrift/server/TServer.py'
+2019-07-19T06:46:47   adding 'thrift/server/__init__.py'
+2019-07-19T06:46:47   adding 'thrift/server/__pycache__/THttpServer.cpython-37.opt-1.pyc'
+2019-07-19T06:46:47   adding 'thrift/server/__pycache__/TNonblockingServer.cpython-37.opt-1.pyc'
+2019-07-19T06:46:47   adding 'thrift/server/__pycache__/TProcessPoolServer.cpython-37.opt-1.pyc'
+2019-07-19T06:46:47   adding 'thrift/server/__pycache__/TServer.cpython-37.opt-1.pyc'
+2019-07-19T06:46:47   adding 'thrift/server/__pycache__/__init__.cpython-37.opt-1.pyc'
+2019-07-19T06:46:47   adding 'thrift/transport/THttpClient.py'
+2019-07-19T06:46:47   adding 'thrift/transport/TSSLSocket.py'
+2019-07-19T06:46:47   adding 'thrift/transport/TSocket.py'
+2019-07-19T06:46:47   adding 'thrift/transport/TTransport.py'
+2019-07-19T06:46:47   adding 'thrift/transport/TTwisted.py'
+2019-07-19T06:46:47   adding 'thrift/transport/TZlibTransport.py'
+2019-07-19T06:46:47   adding 'thrift/transport/__init__.py'
+2019-07-19T06:46:47   adding 'thrift/transport/sslcompat.py'
+2019-07-19T06:46:47   adding 'thrift/transport/__pycache__/THttpClient.cpython-37.opt-1.pyc'
+2019-07-19T06:46:47   adding 'thrift/transport/__pycache__/TSSLSocket.cpython-37.opt-1.pyc'
+2019-07-19T06:46:47   adding 'thrift/transport/__pycache__/TSocket.cpython-37.opt-1.pyc'
+2019-07-19T06:46:47   adding 'thrift/transport/__pycache__/TTransport.cpython-37.opt-1.pyc'
+2019-07-19T06:46:47   adding 'thrift/transport/__pycache__/TTwisted.cpython-37.opt-1.pyc'
+2019-07-19T06:46:47   adding 'thrift/transport/__pycache__/TZlibTransport.cpython-37.opt-1.pyc'
+2019-07-19T06:46:47   adding 'thrift/transport/__pycache__/__init__.cpython-37.opt-1.pyc'
+2019-07-19T06:46:47   adding 'thrift/transport/__pycache__/sslcompat.cpython-37.opt-1.pyc'
+2019-07-19T06:46:47   adding 'thrift-0.11.0.dist-info/METADATA'
+2019-07-19T06:46:47   adding 'thrift-0.11.0.dist-info/WHEEL'
+2019-07-19T06:46:47   adding 'thrift-0.11.0.dist-info/top_level.txt'
+2019-07-19T06:46:47   adding 'thrift-0.11.0.dist-info/RECORD'
+2019-07-19T06:46:47   removing build/bdist.linux-x86_64/wheel
+2019-07-19T06:46:47   Stored in directory: /root/.cache/pip/wheels/be/36/81/0f93ba89a1cb7887c91937948519840a72c0ffdd57cac0ae8f
+2019-07-19T06:46:47   Removing source in /tmp/pip-install-lxi9l77b/thrift
+2019-07-19T06:46:47 Successfully built fastparquet thrift
+2019-07-19T06:46:47 Installing collected packages: six, python-dateutil, numpy, pytz, pandas, llvmlite, numba, thrift, fastparquet
+
+
+
+
+
+
+
+
+
+2019-07-19T06:46:52 Successfully installed fastparquet-0.3.1 llvmlite-0.29.0 numba-0.44.1 numpy-1.16.4 pandas-0.25.0 python-dateutil-2.8.0 pytz-2019.1 six-1.12.0 thrift-0.11.0
